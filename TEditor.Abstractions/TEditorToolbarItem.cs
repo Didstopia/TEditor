@@ -512,8 +512,5 @@ namespace TEditor.Abstractions
         public string Label { get; set; }
 
         internal Func<ITEditorAPI, string> ClickFunc { get; set; }
-
     }
-
 }
-
